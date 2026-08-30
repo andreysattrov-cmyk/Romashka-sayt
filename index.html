@@ -7,17 +7,19 @@
 <title>Ромашка — цветы с любовью</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/styles.css">
+<!-- Исправлено: удален слэш перед styles.css -->
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="topline"><span>Свежие цветы каждый день</span><span class="topline-sep">•</span><span>Доставка по Душанбе</span><span class="topline-right">Ежедневно 08:00–22:00</span></div>
 
 <header class="header">
-  <a class="brand" href="/" aria-label="Ромашка — на главную">
+  <!-- Исправлено: ссылка логотипа на текущую страницу -->
+  <a class="brand" href="./" aria-label="Ромашка — на главную">
     <span class="brand-mark"><span>✿</span></span><span class="brand-copy"><b>Ромашка</b><small>цветочный магазин</small></span>
   </a>
   <nav class="main-nav" aria-label="Основная навигация">
-    <a class="active" href="/">Главная</a><a href="#catalog">Каталог</a><a href="#about">О нас</a><a href="#delivery">Доставка</a><a href="#contacts">Контакты</a>
+    <a class="active" href="#">Главная</a><a href="#catalog">Каталог</a><a href="#about">О нас</a><a href="#delivery">Доставка</a><a href="#contacts">Контакты</a>
   </nav>
   <div class="header-actions">
     <a class="contact-mini" id="phoneLink" href="#" target="_blank" rel="noopener"><span class="wa-mini">◉</span><span><b>+992 900 000 000</b><small>Ежедневно с 08:00 до 22:00</small></span></a>
@@ -75,8 +77,8 @@
 </main>
 
 <footer class="footer">
-  <div class="footer-brand"><a class="brand" href="/"><span class="brand-mark"><span>✿</span></span><span class="brand-copy"><b>Ромашка</b><small>цветочный магазин</small></span></a><p>Дарите эмоции с любовью ♡</p></div>
-  <div class="footer-links"><div><b>Магазин</b><a href="#catalog">Каталог</a><a href="#about">О нас</a><a href="#delivery">Доставка</a></div><div><b>Помощь</b><a href="#contacts">Контакты</a><a href="/admin.html">Админ-панель</a></div></div>
+  <div class="footer-brand"><a class="brand" href="./"><span class="brand-mark"><span>✿</span></span><span class="brand-copy"><b>Ромашка</b><small>цветочный магазин</small></span></a><p>Дарите эмоции с любовью ♡</p></div>
+  <div class="footer-links"><div><b>Магазин</b><a href="#catalog">Каталог</a><a href="#about">О нас</a><a href="#delivery">Доставка</a></div><div><b>Помощь</b><a href="#contacts">Контакты</a><!-- Исправлено: ссылка на админ-панель без слэша --><a href="admin.html">Админ-панель</a></div></div>
   <div class="footer-bottom"><span>© 2026 Ромашка. Все права защищены.</span><span>Сделано с любовью ♡</span></div>
 </footer>
 
@@ -85,6 +87,7 @@
 <aside class="cart-drawer" id="cartDrawer" aria-label="Корзина"><div class="cart-head"><div><span class="eyebrow">ВАШ ЗАКАЗ</span><h2>Корзина</h2></div><button class="close-btn" id="closeCart">×</button></div><div class="cart-items" id="cartItems"></div><div class="cart-foot"><div class="cart-total"><span>Итого</span><b id="cartTotal">0 сомони</b></div><button class="btn btn-primary full" id="checkoutBtn">Оформить заказ <span>→</span></button><a class="cart-wa" id="cartWhatsApp" href="#" target="_blank" rel="noopener">Заказать через WhatsApp</a></div></aside>
 <div class="toast" id="toast"></div>
 <div class="floating-wa"><a id="floatingWhatsApp" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">◉</a></div>
-<script src="/app.js"></script>
+<!-- Исправлено: удален слэш перед app.js -->
+<script src="app.js"></script>
 </body>
 </html>
